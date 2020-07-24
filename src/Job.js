@@ -1,6 +1,25 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import {
+  Link
+} from "react-router-dom";
+
+
 import './Jobs.css';
 import './App.css';
+
+const ReactDOM = require('react-dom')
+
+
+// function LinkRenderer(props) {
+//   return <a href={props.href} target="_blank">{props.children}</a>
+// }
+
+// <ReactMarkdown
+//   source={job.how_to_apply}
+//   renderers={{link: LinkRenderer}}
+// />
+
 
 export default function Job({ job }) {
   return (
